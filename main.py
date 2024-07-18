@@ -1,6 +1,6 @@
 class Pessoa:
   def __init__(self, nomep, cpfp, enderecop):
-    self.__nome = nomep
+    self.nome = nomep
     self.__cpf = cpfp
     self.__endereco = enderecop
 
